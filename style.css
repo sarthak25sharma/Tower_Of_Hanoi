@@ -1,0 +1,57 @@
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+
+.tower {
+    width: 40px;
+    height: 150px;
+    background-color: #012a45;
+    margin: 0 50px;
+   
+    
+    
+}
+.disks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+
+}
+#one{
+    width: 40px;
+    height: 10px;
+    background-color: aliceblue;
+    margin-top: 105px;
+  
+
+}
+#two{
+    width: 80px;
+    height: 15px;
+    background-color: aqua;
+    
+}
+#three{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(6, 10, 10);
+   
+}
+#instructions{
+    position: absolute;
+    margin-left: -1000px;
+    margin-bottom: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+
